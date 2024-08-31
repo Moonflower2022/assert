@@ -177,7 +177,7 @@ async function triggerButton(button, option){
 
     const averageOpinionLevelDiv = document.createElement("div")
     
-    averageOpinionLevelDiv.innerHTML = "Average opinion level: " + opinionLevelConversion[Math.round(averageOpinionLevel)]
+    averageOpinionLevelDiv.innerHTML = "Average Intensity Level: " + opinionLevelConversion[Math.round(averageOpinionLevel)]
     averageOpinionLevelDiv.style.marginTop = "10px";
     averageOpinionLevelDiv.className = "text"
 
@@ -185,7 +185,7 @@ async function triggerButton(button, option){
 
     const averageOpinionDiv = document.createElement("div")
     
-    averageOpinionDiv.innerHTML = "Average: " + opinionConversion[Math.round(averageOpinion)]
+    averageOpinionDiv.innerHTML = "Average Opinion: " + opinionConversion[Math.round(averageOpinion)]
     averageOpinionDiv.style.marginTop = "10px";
     averageOpinionDiv.className = "text-bold"
 
